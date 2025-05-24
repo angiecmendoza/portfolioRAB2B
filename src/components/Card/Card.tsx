@@ -32,7 +32,7 @@ const Card = forwardRef<HTMLDivElement, Data>(
             className="card__container-image"
           />
         </div>
-        <h3 className="card__title">{title}</h3>
+        <h2 className="card__title">{title}</h2>
         <p className="card__description">{description}</p>
         <a
           href={link}
